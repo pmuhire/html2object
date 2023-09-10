@@ -1,0 +1,24 @@
+{
+  "name": "htmltoobject",
+  "version": "1.0.0",
+  "description": "HTML to Object Converter",
+  "main": "index.js",
+  "browser": "browser/htmlToObject.js",
+  "scripts": {
+    "build": "webpack --mode production"
+  },
+  "author": "Muhire Patrick",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/html-to-object.git"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "jsdom": "^22.1.0"
+  },
+  "devDependencies": {
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4"
+  }
+}
